@@ -1,0 +1,19 @@
+# Local installation state
+prelogin/
+reports/
+backups/
+state/
+
+# Logs and generated archives
+*.log
+*.tar
+*.tar.gz
+*.tar.zst
+*.sha256
+
+# Local secrets and editor files
+.env
+.env.*
+.DS_Store
+.idea/
+.vscode/
